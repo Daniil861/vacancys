@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Маркетинговое агентство полного цикла Business-Up</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230215111748">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<button class="menu__close768"></button>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__icon-box">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<span class="menu__link-text-box"><span class="menu__link-text"> Закрыть</span></span>
+					</li>
+					<li class="menu__item _location768">
+						<div class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-8.svg" alt="Icon"> </span>
+							<span data-target-location class="menu__link-text-box">
+								<div class="header__sub-text header-subtext">Ваш город:</div>
+								<div data-toggle="modal" data-target="#city_choose" class="header__location-text header-text">
+									<p>Санкт-Петербург</p>
+								</div>
+							</span>
+						</div>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/landing/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-1.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">Продающие
+									<span>Landing Page</span>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/sites/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-2.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">Корпоративные сайты,
+									<span>интернет магазины</span>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/context/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-3.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">
+									<span>Yandex Direct</span>
+									&amp; Google Adwords
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/target/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-4.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">
+									<span>Продвижение</span>
+									и ведение соц. сетей
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/brending/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-5.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">
+									<span>Брендинг,</span>
+									дизайн полиграфии
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class="menu__item">
+						<a href="https://business-up.org/seo/" class="menu__link">
+							<span class="menu__link-icon"><img src="img/header/icons/menu-6.svg" alt="Icon"> </span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">
+									<span>SEO</span>
+									продвижение
+								</span>
+							</span>
+						</a>
+					</li>
+					<li data-toggle="modal" data-target="#quiz" class="menu__item menu__item-offer-box">
+						<a href="#" class="menu__link">
+							<span class="menu__link-icon _icon-menu-offer"></span>
+							<span class="menu__link-text-box">
+								<span class="menu__link-text">
+									Получить
+									<span>предложение</span>
+								</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- <header data-scroll="100" class="header"> -->
+		<header data-scroll="100" data-lp class="header">
+			<div class="header__container">
+				<div class="header__body _black">
+					<div class="header__item _order768-2">
+						<a href="." class="header__logo">
+							<img src="img/icons/logo.svg" alt="Logo">
+						</a>
+					</div>
+					<div class="header__item _hide768">
+						<div class="header__location-box">
+							<div class="header__sub-text header-subtext">Ваш город:</div>
+							<div data-toggle="modal" data-target="#city_choose" class="header__location-text header-text">
+								<p>Санкт-Петербург</p>
+								<span class="header__location-icon"></span>
+							</div>
+						</div>
+					</div>
+					<div class="header__item menu-header _order768-1">
+						<div class="menu-header__main-menu-icon">
+							<button type="button" class="icon-menu"><span></span></button>
+						</div>
+						<nav class="menu-header__body">
+							<ul class="menu-header__list">
+								<li class="menu-header__item">
+									<div data-btn="services" class="menu-header__link header-text">Услуги</div>
+								</li>
+								<li class="menu-header__item"><a href="/portfolio/" class="menu-header__link header-text">Проекты
+										<span>239</span></a></li>
+								<li class="menu-header__item"><a href="/blog/" class="menu-header__link header-text">Блог</a></li>
+								<li class="menu-header__item"><a href="/otzyvy/" class="menu-header__link header-text">Отзывы</a></li>
+								<li class="menu-header__item"><a href="/#contacts" class="menu-header__link header-text">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__item contacts-header _order768-3">
+						<div class="contacts-header__body">
+							<div class="contacts-header__top">
+								<div class="contacts-header__items">
+									<a href="#" class="contacts-header__item _icon">
+										<img src="img/icons/socials/whatsapp.svg" alt="Icon">
+									</a>
+									<a href="#" class="contacts-header__item _icon">
+										<img src="img/icons/socials/telegram.svg" alt="Icon">
+									</a>
+									<a href="tel:89176460746" class="contacts-header__item _phone">
+										<span>8 (917)-646-07-46</span>
+									</a>
+								</div>
+							</div>
+							<div class="contacts-header__mail-box">
+								<span class="header-subtext">Почта:</span>
+								<a href="mailto:businessup@mail.ru" class="contacts-header__mail">businessup@mail.ru</a>
+							</div>
+						</div>
+						<a href="tel:89176460746" class="contacts-header__phone _icon-phone"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__intro intro-page">
+				<div class="intro-page__wrapper">
+					<div class="intro-page__container">
+						<div class="intro-page__body">
+							<div class="intro-page__content">
+								<div class="intro-page__info">
+									<div class="intro-page__breadcrumbs breadcrumbs">
+										<div class="breadcrumbs__body">
+											<a href="." class="breadcrumbs__link">Главная</a>
+											<span>/</span>
+											<div class="breadcrumbs__current-link">Вакансии</div>
+										</div>
+									</div>
+									<div class="intro-page__text-box">
+										<h1 class="intro-page__title">
+											<span class="intro-page__title-inner">
+												<span>Мы ищем сотрудников</span>
+												<img src="img/pages/vacancys/icons/ellipse.svg" alt="Image">
+											</span>
+
+										</h1>
+										<div class="intro-page__text">
+											<p>Присоединяйтесь к нашей команде первоклассных специалистов по всему миру.</p>
+										</div>
+									</div>
+								</div>
+								<div class="intro-page__image-box">
+									<div class="intro-page__image">
+										<div class="intro-page__hero">
+											<picture><source srcset="img/pages/vacancys/intro/hero.webp" type="image/webp"><img src="img/pages/vacancys/intro/hero.png" alt="Image"></picture>
+										</div>
+										<div class="intro-page__arc">
+											<img src="img/pages/vacancys/intro/arc.svg" alt="Image">
+										</div>
+										<div class="intro-page__dots">
+											<picture><source srcset="img/pages/vacancys/intro/dots.webp" type="image/webp"><img src="img/pages/vacancys/intro/dots.png" alt="Image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__secret secret-vacancy">
+				<div class="secret-vacancy__container">
+					<div class="secret-vacancy__body">
+						<div class="secret-vacancy__title">
+							<h2>
+								<span class="secret-vacancy__empty100">r</span> Мы знаем <span>секрет</span>, который помогает
+								полностью погрузиться и получить
+								<span>удовольствие от работы</span> :)
+							</h2>
+						</div>
+						<div class="secret-vacancy__items">
+							<div class="secret-vacancy__item item-secret-vacancy">
+								<div class="item-secret-vacancy__body _1">
+									<div class="item-secret-vacancy__number">01</div>
+									<div class="item-secret-vacancy__blocks">
+										<div class="item-secret-vacancy__text-block">
+											<div class="item-secret-vacancy__title-box">
+												<h3 class="item-secret-vacancy__title">Доверие </h3>
+											</div>
+											<div class="item-secret-vacancy__content">
+												<ul class="item-secret-vacancy__list">
+													<li class="item-secret-vacancy__paragraph"> Конкурентоспособная зарплата </li>
+													<li class="item-secret-vacancy__paragraph"> Ежемесячные бонусы </li>
+													<li class="item-secret-vacancy__paragraph"> Подарки сотрудникам </li>
+													<li class="item-secret-vacancy__paragraph"> Поддерживаем саморазвитие и помогаем
+														с
+														учебным материалом </li>
+													<li class="item-secret-vacancy__paragraph"> 28 дней в году оплачиваемого отпуск
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="item-secret-vacancy__icon-box">
+											<div class="item-secret-vacancy__icon">
+												<img src="img/pages/vacancys/secret/secret-1.svg" alt="Icon">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="secret-vacancy__item item-secret-vacancy">
+								<div class="item-secret-vacancy__body _2">
+									<div class="item-secret-vacancy__number">02</div>
+									<div class="item-secret-vacancy__blocks">
+										<div class="item-secret-vacancy__text-block">
+											<div class="item-secret-vacancy__title-box">
+												<h3 class="item-secret-vacancy__title">Удаленный формат работы </h3>
+											</div>
+											<div class="item-secret-vacancy__content">
+												<div class="item-secret-vacancy__text">
+													<p>
+														Наши ребята могут организовать рабочий процесс в удобном для них ритме и
+														трудиться
+														по гибкому графику, в свое самое продуктивное время.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="item-secret-vacancy__icon-box">
+											<div class="item-secret-vacancy__icon">
+												<img src="img/pages/vacancys/secret/secret-2.svg" alt="Icon">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="secret-vacancy__item item-secret-vacancy">
+								<div class="item-secret-vacancy__body _3">
+									<div class="item-secret-vacancy__number">03</div>
+									<div class="item-secret-vacancy__blocks">
+										<div class="item-secret-vacancy__text-block">
+											<div class="item-secret-vacancy__title-box">
+												<h3 class="item-secret-vacancy__title">Прозрачность</h3>
+											</div>
+											<div class="item-secret-vacancy__content">
+												<div class="item-secret-vacancy__text">
+													<p>
+														Как сотрудник, вы имеете право знать, что происходит и какое захватывающее
+														будущее у Business-up.
+														Каждую неделю мы начинаем со встречи с руководителем агентства и командой,
+														чтобы обсудить задачи, расставить приоритеты, ну и задать любые вопросы,
+														которые у вас есть.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="item-secret-vacancy__icon-box">
+											<div class="item-secret-vacancy__icon">
+												<img src="img/pages/vacancys/secret/secret-3.svg" alt="Icon">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="secret-vacancy__item item-secret-vacancy">
+								<div class="item-secret-vacancy__body _4">
+									<div class="item-secret-vacancy__number">04</div>
+									<div class="item-secret-vacancy__blocks">
+										<div class="item-secret-vacancy__text-block">
+											<div class="item-secret-vacancy__title-box">
+												<h3 class="item-secret-vacancy__title">Веселье </h3>
+											</div>
+											<div class="item-secret-vacancy__content">
+												<ul class="item-secret-vacancy__list">
+													<li class="item-secret-vacancy__paragraph"> Работа с крутыми профессионалами
+													</li>
+													<li class="item-secret-vacancy__paragraph"> Незабываемые тусовки </li>
+													<li class="item-secret-vacancy__paragraph"> Здоровая атмосфера команды </li>
+													<li class="item-secret-vacancy__paragraph"> Только интересные проекты</li>
+													<li class="item-secret-vacancy__paragraph"> Менторство </li>
+												</ul>
+											</div>
+										</div>
+										<div class="item-secret-vacancy__icon-box">
+											<div class="item-secret-vacancy__icon">
+												<img src="img/pages/vacancys/secret/secret-4.svg" alt="Icon">
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__open-vacancys open-vacancys">
+				<div class="open-vacancys__container">
+					<div class="open-vacancys__body">
+						<div class="open-vacancys__title">
+							<h3>Открытые позиции</h3>
+						</div>
+						<div class="open-vacancys__items">
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="open-vacancys__item item-open-vacancys">
+								<div class="item-open-vacancys__body">
+									<div class="item-open-vacancys__title">
+										<h4>Junior UX/UI Designer </h4>
+									</div>
+									<div class="item-open-vacancys__salary">
+										<p>$ 500 - 1 000</p>
+									</div>
+									<div class="item-open-vacancys__descr">
+										<p>Для авиакомпаний. Для поставщиков услуг в странах отдыха. Переводить веб-проекты на
+											новые технологии. Помогать вырабатывать архитектуру решений по задачам.
+											Опыт работы в сфере туризма или авиации (онлайн-турагентства, агрегаторы и т.п.)</p>
+									</div>
+									<div class="item-open-vacancys__button-box">
+										<a href="single-vacancy.html" class="item-open-vacancys__button button-arrow _icon-arrow-right">
+											<span>Подробнее</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="open-vacancys__button-more-box">
+							<a href="#" class="open-vacancys__link button-arrow _icon-arrow-right">
+								<span>Все вакнсии </span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__join vacancys-join">
+				<div class="vacancys-join__image">
+					<span></span>
+					<picture><source srcset="img/pages/vacancys/join/join.webp" type="image/webp"><img src="img/pages/vacancys/join/join.png" alt="Image"></picture>
+				</div>
+				<div class="vacancys-join__container">
+					<div class="vacancys-join__body">
+						<div class="vacancys-join__content">
+							<div class="vacancys-join__title">
+								<h4>Присоединяйтесь к нам сейчас</h4>
+							</div>
+							<div class="vacancys-join__text-box">
+								<p>
+									Свяжитесь с нами сегодня, чтобы узнать об открытых вакансиях в Business-up
+									<span><img src="img/pages/vacancys/join/icons/line.svg" alt="Icon"></span>
+								</p>
+							</div>
+							<form action="#" class="vacancys-join__form form-vacancys-join">
+								<div class="form-vacancys-join__body">
+									<div class="form-vacancys-join__inner">
+										<div class="form-vacancys-join__title">
+											<h5>Оставить заявку</h5>
+										</div>
+										<div class="form-vacancys-join__inputs">
+											<div class="form-vacancys-join__input-box">
+												<div class="form-vacancys-join__subtitle">Ваше имя</div>
+												<input type="text" data-validate data-required name="name" placeholder="Иван" class="form-vacancys-join__input _name">
+											</div>
+											<div class="form-vacancys-join__input-box">
+												<div class="form-vacancys-join__subtitle">Ваш телефон</div>
+												<input type="text" data-validate data-required name="phone" placeholder="+7 (900) 000 00 00" class="form-vacancys-join__input _phone">
+											</div>
+											<div class="form-vacancys-join__input-box">
+												<div class="form-vacancys-join__subtitle">Ваш имейл</div>
+												<input type="text" data-validate data-required="email" name="mail" placeholder="Login@domain.com " class="form-vacancys-join__input _email">
+											</div>
+										</div>
+										<div class="form-vacancys-join__button-box">
+											<button type="submit" class="form-vacancys-join__button button-arrow _icon-arrow-right">
+												<span>Отправить</span>
+											</button>
+										</div>
+									</div>
+									<div class="form-vacancys-join__shapes">
+										<div class="form-vacancys-join__triangle form-vacancys-join__triangle_1">
+											<img src="img/pages/vacancys/join/icons/triangle-1.svg" alt="Icon">
+										</div>
+										<div class="form-vacancys-join__triangle form-vacancys-join__triangle_2">
+											<img src="img/pages/vacancys/join/icons/triangle-2.svg" alt="Icon">
+										</div>
+										<div class="form-vacancys-join__arc">
+											<img src="img/pages/vacancys/join/icons/arc.svg" alt="Icon">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="vacancys-join__empty"></div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="contacts">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__header header-footer">
+						<div class="header-footer__body">
+							<div class="header-footer__logo-box">
+								<a href="." class="header-footer__logo">
+									<img src="img/icons/logo.svg" alt="Logo">
+								</a>
+							</div>
+							<div class="header-footer__contacts contacts-header-footer">
+								<div class="contacts-header-footer__body">
+									<div class="contacts-header-footer__item">
+										<div class="contacts-header-footer__top">
+											<div class="contacts-header-footer__text">
+												<span>8 (917)-646-07-46</span>
+											</div>
+											<div class="contacts-header-footer__info">
+												<p>Написать нам:</p>
+												<div class="contacts-header-footer__socials">
+													<a href="https://wa.me/send?phone=79176460746&amp;text=Добрый+день" class="contacts-header-footer__link">
+														<img src="img/icons/socials/whatsapp.svg" alt="Icon">
+													</a>
+													<a href="https://t.me/Konstantin100" class="contacts-header-footer__link">
+														<img src="img/icons/socials/telegram.svg" alt="Icon">
+													</a>
+													<a href="viber://chat?number=%2B79176460746" class="contacts-header-footer__link">
+														<img src="img/icons/socials/viber.svg" alt="Icon">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="contacts-header-footer__bottom">
+											<div class="contacts-header-footer__text">
+												<p><span>Адрес: </span>г.Волгоград, ул.Рабочекрестьянская 9б</p>
+											</div>
+										</div>
+									</div>
+									<div class="contacts-header-footer__item">
+										<div class="contacts-header-footer__top">
+											<div class="contacts-header-footer__text _email">
+												<span>Email:</span>
+												<a href="mailto:Info@business-up.org">Info@business-up.org</a>
+											</div>
+										</div>
+										<div class="contacts-header-footer__bottom">
+											<div class="contacts-header-footer__socials">
+												<a href="https://vk.com/nastroyka_yandex_directa" class="contacts-header-footer__link">
+													<img src="img/icons/socials/vk.svg" alt="Icon">
+												</a>
+												<a href="#" class="contacts-header-footer__link">
+													<img src="img/icons/socials/insta.svg" alt="Icon">
+												</a>
+												<a href="https://zen.yandex.ru/id/5fcb600fa2370f5665b5be8d" class="contacts-header-footer__link">
+													<img src="img/icons/socials/dzen.svg" alt="Icon">
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="header-footer__menu menu-header-footer">
+								<div class="menu-header-footer__body">
+									<ul class="menu-header-footer__list">
+										<li class="menu-header-footer__item">
+											<a href="https://business-up.org/" aria-current="page" class="menu-header-footer__link">Главная</a>
+										</li>
+										<li class="menu-header-footer__item">
+											<a href="./portfolio/" class="menu-header-footer__link">Кейсы</a>
+										</li>
+										<li class="menu-header-footer__item">
+											<a href="./otzyvy/" class="menu-header-footer__link">Отзывы</a>
+										</li>
+										<li class="menu-header-footer__item">
+											<a href="./blog/" class="menu-header-footer__link">Блог</a>
+										</li>
+										<li class="menu-header-footer__item">
+											<a href="/#contacts" class="menu-header-footer__link">Контакты</a>
+										</li>
+										<li class="menu-header-footer__item">
+											<a href="/vacancys.html" class="menu-header-footer__link">Вакансии</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__body">
+							<div class="bottom-footer__text-box">
+								<div class="bottom-footer__text">
+									<p>
+										ООО "Business-up"
+										<span>2023 ©</span>
+									</p>
+								</div>
+							</div>
+							<div class="bottom-footer__roadmap-box">
+								<a href="/sitemap.xml" class="bottom-footer__roadmap">
+									<span>Карта сайта</span>
+								</a>
+							</div>
+							<div class="bottom-footer__privacy-box">
+								<a href="/politika-konfidenczialnosti/" class="bottom-footer__privacy">
+									<span> Политика конфиденциальности </span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20230215111748"></script>
+</body>
+
+</html>
